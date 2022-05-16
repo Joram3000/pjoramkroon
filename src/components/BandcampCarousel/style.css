@@ -1,0 +1,8 @@
+.singles-style {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.singletje {
+  border: 1px solid pink;
+}
