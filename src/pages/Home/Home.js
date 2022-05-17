@@ -2,6 +2,8 @@ import plaatje from "../../assets/2.jpeg";
 import plaatje2 from "../../assets/5.jpeg";
 import nogeenplaatje from "../../assets/3.png";
 
+import BandcampCarousel from "../../components/BandcampCarousel/BandcampCarousel";
+
 export default function Homepage() {
   return (
     <div>
@@ -9,6 +11,8 @@ export default function Homepage() {
       <img src={plaatje} alt="hondelul" />
       <img src={nogeenplaatje} alt="hondelul" />
       <img src={plaatje2} alt="donkes" />
+
+      <BandcampCarousel />
     </div>
   );
 }

@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import "./App.css";
+import { ParallaxProvider } from "react-scroll-parallax";
 
 import { Routes, Route } from "react-router-dom";
 import Navigation from "./components/Navigation";
@@ -11,6 +12,7 @@ import Login from "./pages/Login";
 import Homepage from "./pages/Home/Home";
 import ImgCarousel from "./components/ImgCarousel/ImgCarousel";
 import TheFirstStatementpage from "./pages/The First Statement/TheFirstStatement";
+import PracexGnawa from "./pages/PracexGnawa/PracexGnawa";
 import BandcampCarousel from "./components/BandcampCarousel/BandcampCarousel";
 
 import { useDispatch, useSelector } from "react-redux";
@@ -34,13 +36,16 @@ function App() {
       <MessageBox />
       {isLoading ? <Loading /> : null}
 
-      <Routes>
-        <Route exact path="/" element={<Homepage />} />
-        <Route path="/other" element={<TheFirstStatementpage />} />
-        <Route path="/bc" element={<BandcampCarousel />} />
-        <Route path="/signup" element={<SignUp />} />
-        <Route path="/login" element={<Login />} />
-      </Routes>
+      <ParallaxProvider>
+        <Routes>
+          <Route exact path="/" element={<Homepage />} />
+          <Route path="/tfs" element={<TheFirstStatementpage />} />
+          <Route path="/gnawa" element={<PracexGnawa />} />
+          <Route path="/bc" element={<BandcampCarousel />} />
+          <Route path="/signup" element={<SignUp />} />
+          <Route path="/login" element={<Login />} />
+        </Routes>
+      </ParallaxProvider>
     </div>
   );
 }

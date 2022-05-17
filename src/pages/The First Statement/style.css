@@ -1,8 +1,8 @@
 .backgroundImg {
   border: 2px solid black;
   display: flex;
-  
-  height: 1080px;
+
+  height: 742px;
   bottom: 0%;
 }
 
@@ -35,10 +35,15 @@
 }
 
 .tfsPrace {
-  /* border: 3px dotted pink; */
   position: absolute;
   bottom: 0%;
   left: 60%;
+}
+
+.inspectionPoint {
+  position: absolute;
+  bottom: 0%;
+  right: -200%;
 }
 
 body {

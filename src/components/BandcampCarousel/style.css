@@ -1,8 +1,5 @@
-.singles-style {
+.singletjes {
   display: flex;
   justify-content: space-evenly;
-}
-
-.singletje {
-  border: 1px solid pink;
+  border: 1px dotted pink;
 }
