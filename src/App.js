@@ -14,6 +14,8 @@ import ImgCarousel from "./components/ImgCarousel/ImgCarousel";
 import TheFirstStatementpage from "./pages/The First Statement/TheFirstStatement";
 import PracexGnawa from "./pages/PracexGnawa/PracexGnawa";
 import BandcampCarousel from "./components/BandcampCarousel/BandcampCarousel";
+import Parallaxtest from "./components/Parallaxtest/parallaxtest";
+import CssBlox from "./components/csstest/cssblox";
 
 import { useDispatch, useSelector } from "react-redux";
 import { selectAppLoading } from "./store/appState/selectors";
@@ -41,6 +43,8 @@ function App() {
           <Route exact path="/" element={<Homepage />} />
           <Route path="/tfs" element={<TheFirstStatementpage />} />
           <Route path="/gnawa" element={<PracexGnawa />} />
+          <Route path="/parallaxtest" element={<Parallaxtest />} />
+          <Route path="/cssblox" element={<CssBlox />} />
           <Route path="/bc" element={<BandcampCarousel />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/login" element={<Login />} />

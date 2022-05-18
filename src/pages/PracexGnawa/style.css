@@ -1,0 +1,15 @@
+.PG1 > p {
+  position: absolute;
+  color: white;
+  font-size: 15px;
+  top: 50%;
+  left: 20%;
+}
+
+.PG2 > p {
+  position: absolute;
+  color: white;
+  font-size: 15px;
+  top: 150%;
+  left: 20%;
+}
