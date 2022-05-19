@@ -13,8 +13,6 @@ export default function PracexGnawa() {
   return (
     <div>
       <div className="PG1">
-        <Parallax>hallo allemaal dikke ballen dermee</Parallax>
-
         <video
           style={{ width: "100%", height: "100%" }}
           muted
@@ -31,11 +29,21 @@ export default function PracexGnawa() {
         style={{ width: "100%" }}
         bgImage={pracexgnawablackkoyocouleurcafe}
         bgImageAlt="pracexgnawablackkoyocouleurcafe"
-        strength={-200}
+        strength={-900}
       >
         Blur transition from min to max
         <div style={{ height: "1080px" }} />
       </Parallax>
+
+      <div id="overflowtje">
+        As you can see, once there's enough text in this box, the box will grow
+        scroll bars... that's why we call it a scroll box! You could also place
+        an image into the scroll box. scroll bars... that's why we call it a
+        scroll box! You could also place an image into the scroll box. scroll
+        bars... that's why we call it a scroll box! You could also place an
+        image into the scroll box. scroll bars... that's why we call it a scroll
+        box! You could also place an image into the scroll box.
+      </div>
 
       <div className="PG2">
         <p>

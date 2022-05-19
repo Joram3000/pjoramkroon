@@ -13,3 +13,16 @@
   top: 150%;
   left: 20%;
 }
+
+#overflowtje {
+  color: white;
+  height: 50%;
+  width: 30%;
+
+  font: 25px/36px Georgia, Garamond, Serif;
+  overflow: auto;
+  position: absolute;
+  align-items: center;
+  top: 50%;
+  left: 5%;
+}

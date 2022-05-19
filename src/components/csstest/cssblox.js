@@ -9,19 +9,25 @@ import "./style.css";
 export default function cssBlox() {
   return (
     <div>
-      <div className="backGrounds">
-        <img id="wyfr1" src={wyfr1} alt="wyfr1" />
-        <img id="wyfr2" src={wyfr2} alt="wyfr2" />
-        <img id="wyfr3" src={wyfr3} alt="wyfr3" />
-        <img id="wyfr4" src={wyfr4} alt="wyfr4" />
+      <div className="page1">
+        <img id="bg" src={wyfr1} alt="wyfr1" />
+
+        <h3 id="textje">
+          Kijk ik ben een textje die aan het begin staat <br />
+          en toen ging ik hier verderen ging ik hier verden ging ik hier verd en
+          ging ik hier verden ging ik hier verden ging ik hier verd en ging ik
+          hier verd
+        </h3>
       </div>
 
-      <div className="textBoxes">
-        <p id="textje1">
-          Kijk ik ben een textje die aan het begin staat <br />
-          en toen ging ik hier verder typen{" "}
-        </p>
+      <div className="page2">
+        <img id="bg" src={wyfr2} alt="wyfr2" />
 
+        <p id="textje">Nou en toen gebeurde dit en toen gebeurde dat en toen</p>
+      </div>
+
+      {/*       
+      <div className="textBoxes">
         <p id="textje2">
           en ik sta hieren ik sta hieren
           <br /> ik sta hieren ik sta hieren ik sta
@@ -34,7 +40,14 @@ export default function cssBlox() {
           <br /> ik sta hierhwdren ik sta hoeren ik sta
           <br /> ik sta hieren ik sta huren ik sta
         </p>
-      </div>
+      </div> */}
+
+      {/* <div className="backGrounds">
+        <img id="bg" src={wyfr1} alt="wyfr1" />
+        <img id="bg" src={wyfr2} alt="wyfr2" />
+        <img id="bg" src={wyfr3} alt="wyfr3" />
+        <img id="bg" src={wyfr4} alt="wyfr4" />
+      </div> */}
     </div>
   );
 }

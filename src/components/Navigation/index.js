@@ -8,6 +8,8 @@ import NavbarItem from "./NavbarItem";
 import LoggedIn from "./LoggedIn";
 import LoggedOut from "./LoggedOut";
 
+import logowit from "../../assets/logowit.png";
+
 export default function Navigation() {
   const token = useSelector(selectToken);
 
@@ -16,7 +18,7 @@ export default function Navigation() {
   return (
     <Navbar variant="dark" expand="lg" bg="black">
       <Navbar.Brand as={NavLink} to="/">
-        Pracism
+        <img style={{ height: "25px" }} src={logowit} alt="logowit"></img>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">

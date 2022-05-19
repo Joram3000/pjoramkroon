@@ -1,29 +1,21 @@
-.backGrounds > img {
-  height: 700px;
+#bg {
+  height: 100%;
   width: 100%;
 }
 
-#textje1 {
-  position: absolute;
-  top: 50%;
-  left: 20%;
-  text-align: center;
-}
+.page1 #textje {
+  border: 3px groove purple;
+  color: rgb(27, 156, 32);
+  text-shadow: 0 0 23px black;
 
-#textje2 {
-  position: absolute;
-  top: 80%;
-  left: 10%;
-}
-
-#textje3 {
-  position: absolute;
-  top: 160%;
-  right: 5%;
   text-align: right;
+  position: relative;
 }
 
-p {
-  color: white;
-  font: 20px Verdana, sans-serif;
+.page2 {
+  border: 1px dotted grey;
+}
+.page2 #textje {
+  color: rgb(17, 10, 91);
+  text-shadow: 0 0 1px black;
 }

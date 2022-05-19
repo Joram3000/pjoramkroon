@@ -1,0 +1,93 @@
+.deel1 {
+  background-image: url(../../assets/DSCN0094p.png);
+  background-position: center;
+  width: 100vw;
+  height: 50vh;
+  overflow: auto;
+}
+
+.deel1 text {
+  color: rgb(231, 145, 237);
+  position: relative;
+  width: 50vw;
+  left: 50px;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.deel2 {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../../assets/DSCN0105.jpg);
+  background-position: center;
+  position: relative;
+  text-align: right;
+}
+
+.deel2 #ding1 {
+  background-color: rgb(77, 60, 146);
+
+  width: 50vw;
+  height: 20vh;
+
+  overflow: scroll;
+  position: relative;
+
+  transform: translate(0, -50%);
+  text-align: left;
+}
+
+.deel2 #ding2 {
+  background-color: coral;
+  text-align: center;
+
+  font-size: 150%;
+  width: 80vw;
+  height: 10vh;
+
+  overflow: scroll;
+  position: relative;
+
+  margin: 0 auto;
+  top: 20%;
+  transform: translate(0, -50%);
+}
+
+p {
+  color: palevioletred;
+  font-size: 130%;
+}
+
+.deel3 {
+  background-color: rgba(102, 125, 53, 0.547);
+  width: 100%;
+  height: 10vh;
+  position: absolute;
+  overflow: auto;
+  margin: 0 auto;
+  font-size: 400%;
+  text-align: center;
+}
+
+.deel4 {
+  background-color: rgb(228, 255, 196);
+  width: 80%;
+  height: 20vh;
+  overflow: auto;
+  text-align: center;
+}
+
+.deel4 text {
+  color: purple;
+}
+
+.deel5 {
+  text-align: center;
+}
+.deel5 text {
+  color: purple;
+
+  font-size: 500%;
+  position: relative;
+  top: 30%;
+}

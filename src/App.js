@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import "./App.css";
 import { ParallaxProvider } from "react-scroll-parallax";
+import { Parallax } from "react-scroll-parallax";
 
 import { Routes, Route } from "react-router-dom";
 import Navigation from "./components/Navigation";
@@ -16,6 +17,7 @@ import PracexGnawa from "./pages/PracexGnawa/PracexGnawa";
 import BandcampCarousel from "./components/BandcampCarousel/BandcampCarousel";
 import Parallaxtest from "./components/Parallaxtest/parallaxtest";
 import CssBlox from "./components/csstest/cssblox";
+import CssBlox2 from "./components/csstest/cssblox2";
 
 import { useDispatch, useSelector } from "react-redux";
 import { selectAppLoading } from "./store/appState/selectors";
@@ -45,6 +47,7 @@ function App() {
           <Route path="/gnawa" element={<PracexGnawa />} />
           <Route path="/parallaxtest" element={<Parallaxtest />} />
           <Route path="/cssblox" element={<CssBlox />} />
+          <Route path="/cssblox2" element={<CssBlox2 />} />
           <Route path="/bc" element={<BandcampCarousel />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/login" element={<Login />} />
