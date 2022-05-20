@@ -1,6 +1,10 @@
 import "./style3.css";
 import { Parallax } from "react-scroll-parallax";
 
+import Sidescrollcomp from "../sidescrolcomp/sidescrollcomp";
+
+import raket from "../../assets/raket.png";
+
 export default function cssBlox2() {
   return (
     <div className="wholepage">
@@ -20,20 +24,26 @@ export default function cssBlox2() {
         </Parallax>
       </div>
 
+      <Sidescrollcomp />
+
       <div className="page" id="nr5">
         <Parallax scale={[0, 3, "easeOutQuint"]}>
           <text>lekker inzoomen</text>
         </Parallax>
       </div>
 
-      <Parallax speed={300}>
-        <div className="page" id="nr3">
-          <div id="blokkie1"></div>
+      <Parallax speed={200}>
+        <div className="page" id="zoef">
+          <img
+            style={{ width: "100px", height: "auto" }}
+            src={raket}
+            alt="raket"
+            id="raket"
+          />
         </div>
       </Parallax>
 
       <div className="page" id="nr4">
-      
         <div id="blokje">nr4</div>
         <div id="blokje">nr4</div>
         <div id="blokje">nr4</div>

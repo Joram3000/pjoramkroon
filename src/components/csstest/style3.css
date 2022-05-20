@@ -41,8 +41,8 @@
   background-color: rgb(51, 68, 58);
   position: relative;
 }
-#nr3 {
-  background-color: mediumslateblue;
+#zoef {
+  background: none;
   position: absolute;
   display: flex;
   align-items: center;
@@ -55,6 +55,9 @@
   width: 30%;
   height: 40%;
   position: relative;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
 }
 
 #nr4 {

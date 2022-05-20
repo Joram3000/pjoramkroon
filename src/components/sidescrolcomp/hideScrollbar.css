@@ -1,0 +1,22 @@
+.react-horizontal-scrolling-menu--scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+.react-horizontal-scrolling-menu--scroll-container {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.scrolliebox {
+  width: 150px;
+  height: 40px;
+  background-color: aquamarine;
+  color: blue;
+}
+
+#scrl {
+  border-radius: 4px;
+  height: 200px;
+  width: 450px;
+  margin: 4px;
+}
