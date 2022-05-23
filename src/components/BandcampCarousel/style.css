@@ -1,5 +1,11 @@
 .singletjes {
   display: flex;
   justify-content: space-evenly;
-  border: 1px dotted pink;
+}
+
+.bandcampcarrousel > p {
+  background-color: rgb(249, 255, 127);
+
+  margin: 0px;
+  text-align: center;
 }

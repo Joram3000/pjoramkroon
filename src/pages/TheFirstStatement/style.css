@@ -4,6 +4,8 @@ body {
 
 #bg {
   position: absolute;
+  min-width: 100vw;
+  height: 100vh;
 }
 
 .wholepagetfs {

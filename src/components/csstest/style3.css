@@ -23,24 +23,9 @@
   flex-direction: row;
 }
 
-#nr11 {
-  color: rgb(46, 69, 115);
-  background-color: cornflowerblue;
-  position: relative;
-  left: 1%;
-}
-
-#nr22 {
-  color: rgb(113, 41, 90);
-  background-color: chocolate;
-  position: relative;
-}
-
 #nr33 {
-  color: rgb(41, 113, 41);
-  background-color: rgb(51, 68, 58);
-  position: relative;
 }
+
 #zoef {
   background: none;
   position: absolute;

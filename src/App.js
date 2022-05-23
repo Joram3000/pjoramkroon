@@ -16,7 +16,7 @@ import TheFirstStatementpage from "./pages/TheFirstStatement/TheFirstStatement";
 import PracexGnawa from "./pages/PracexGnawa/PracexGnawa";
 import BandcampCarousel from "./components/BandcampCarousel/BandcampCarousel";
 import Parallaxtest from "./components/Parallaxtest/parallaxtest";
-import CssBlox from "./components/csstest/cssblox";
+
 import CssBlox2 from "./components/csstest/cssblox2";
 import CssBlox3 from "./components/csstest/cssblox3";
 
@@ -47,7 +47,6 @@ function App() {
           <Route path="/tfs" element={<TheFirstStatementpage />} />
           <Route path="/gnawa" element={<PracexGnawa />} />
           <Route path="/parallaxtest" element={<Parallaxtest />} />
-          <Route path="/cssblox" element={<CssBlox />} />
           <Route path="/cssblox2" element={<CssBlox2 />} />{" "}
           <Route path="/cssblox3" element={<CssBlox3 />} />
           <Route path="/bc" element={<BandcampCarousel />} />
