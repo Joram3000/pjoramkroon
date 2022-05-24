@@ -14,6 +14,7 @@ import Homepage from "./pages/Home/Home";
 import ImgCarousel from "./components/ImgCarousel/ImgCarousel";
 import TheFirstStatementpage from "./pages/TheFirstStatement/TheFirstStatement";
 import PracexGnawa from "./pages/PracexGnawa/PracexGnawa";
+import PracexGnawa2 from "./pages/PracexGnawa/PracexGnawa2";
 import BandcampCarousel from "./components/BandcampCarousel/BandcampCarousel";
 import Parallaxtest from "./components/Parallaxtest/parallaxtest";
 
@@ -45,7 +46,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Homepage />} />
           <Route path="/tfs" element={<TheFirstStatementpage />} />
-          <Route path="/gnawa" element={<PracexGnawa />} />
+          <Route path="/gnawa" element={<PracexGnawa2 />} />
           <Route path="/parallaxtest" element={<Parallaxtest />} />
           <Route path="/cssblox2" element={<CssBlox2 />} />
           <Route path="/cssblox3" element={<CssBlox3 />} />

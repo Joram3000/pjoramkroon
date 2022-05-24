@@ -9,6 +9,8 @@ import raket from "../../assets/raket.png";
 export default function cssBlox2() {
   return (
     <div className="wholepage">
+
+    
       <div className="page" id="nr1">
         <text style={{ fontSize: "10vh" }}>hier staat text</text>
       </div>

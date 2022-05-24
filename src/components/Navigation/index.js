@@ -16,7 +16,7 @@ export default function Navigation() {
   const loginLogoutControls = token ? <LoggedIn /> : <LoggedOut />;
 
   return (
-    <Navbar variant="dark" expand="lg" bg="black">
+    <Navbar variant="dark" expand="lg" bg="black" fixed="top">
       <Navbar.Brand as={NavLink} to="/">
         <img style={{ height: "25px" }} src={logowit} alt="logowit"></img>
       </Navbar.Brand>

@@ -6,62 +6,66 @@ import { Parallax, Background } from "react-parallax";
 import "./style.css";
 
 import Africadelic_PracexBlackKoyo from "../../assets/GnawaExploration/Africadelic_PracexBlackKoyo.mp4";
-import AtlasElectronic_PracexSattaralSaadi from "../../assets/GnawaExploration/AtlasElectronic_PracexSattaralSaadi.png";
+import AtlasElectronic_PracexSattaralSaadiResized from "../../assets/GnawaExploration/AtlasElectronic_PracexSattaralSaadiResized.png";
 import AtlasElectronic_2016II from "../../assets/GnawaExploration/AtlasElectronic_2016II.jpeg";
 import Sahara_Prace from "../../assets/GnawaExploration/Sahara_Prace.mp4";
 import DarGnawa_Talking from "../../assets/GnawaExploration/DarGnawa_Talking.jpeg";
 
 export default function PracexGnawa() {
   return (
-    <div>
-      <div className="pager">
+    <div className="dikzak">
+      <div className="pager" id="pager1">
         <video
           style={{
             width: "100%",
-            marginBottom: "-6px",
-            position: "relative",
           }}
           muted
           loop
           autoPlay
-          id="Africadelic_PracexBlackKoyo"
+          id="Sahara_Prace"
         >
           <source src={Africadelic_PracexBlackKoyo} type="video/mp4" />
         </video>
 
-        <h1
-          style={{
-            position: "absolute",
-            alignItems: "center",
-          }}
-        >
-          HALLO
-        </h1>
-      </div>
-
-      <div className="pager">
-        <img
-          style={{ backgroundColor: "blue", width: "100%", height: "100%" }}
-          id="AtlasElectronic_PracexSattaralSaadi"
-          src={AtlasElectronic_PracexSattaralSaadi}
-          alt="AtlasElectronic_PracexSattaralSaadi"
-        />
+        <p className="floaty" id="headorr">
+          The <br></br>
+          Gnawa <br></br>
+          Exploration
+        </p>
       </div>
 
       <div className="pager">
         <img
           style={{ width: "100%", height: "100%" }}
-          id="AtlasElectronic_2016II"
-          src={AtlasElectronic_2016II}
-          alt="AtlasElectronic_2016II"
+          id="AtlasElectronic_PracexSattaralSaadiResized"
+          src={AtlasElectronic_PracexSattaralSaadiResized}
+          alt="AtlasElectronic_PracexSattaralSaadiResized"
         />
+
+        <p
+          className="floaty"
+          style={{
+            fontSize: "4vw",
+            display: "flex",
+            justifyContent: "right",
+          }}
+        >
+          In 2017 me and Sattar al Saadi were invited to play at the Atlas
+          Electronic Festival in Marrakech.
+        </p>
       </div>
+
+      <div className="pager"></div>
+      <img
+        id="AtlasElectronic_2016II"
+        src={AtlasElectronic_2016II}
+        alt="AtlasElectronic_2016II"
+      />
 
       <div className="pager">
         <video
           style={{
             width: "100%",
-            marginBottom: "-6px",
           }}
           muted
           loop
@@ -74,7 +78,6 @@ export default function PracexGnawa() {
 
       <div className="pager">
         <img
-          style={{ width: "100%", height: "100%" }}
           id="DarGnawa_Talking"
           src={DarGnawa_Talking}
           alt="DarGnawa_Talking"
@@ -83,3 +86,21 @@ export default function PracexGnawa() {
     </div>
   );
 }
+
+// <div>
+//     <div className="pager">
+
+//       <h1 id="heador">
+//
+//       </h1>
+//     </div>
+
+//     <div className="pager">
+
+//     </div>
+
+//     <div className="pager">
+//
+//     </div>
+
+//   </div>

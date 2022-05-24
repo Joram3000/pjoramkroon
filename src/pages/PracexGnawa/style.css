@@ -1,28 +1,76 @@
-.PG1 > p {
-  position: absolute;
-  color: white;
-  font-size: 15px;
-  top: 50%;
-  left: 20%;
-}
+/* style={{
+  color: "white",
+  position: "absolute",
 
-.PG2 > p {
-  position: absolute;
-  color: white;
-  font-size: 15px;
-  top: 150%;
-  left: 20%;
-}
+  minWidth: "100%",
+  textAlign: "center",
+  fontSize: "10vh",
+  mixBlendMode: "exclusion",
+  zIndex: "4",
+}} */
 
-#overflowtje {
-  color: white;
-  height: 50%;
-  width: 30%;
+/* 
+style={{
+  color: "white",
+  position: "fixed",
+  top: "50vh",
+  minWidth: "100%",
+  textAlign: "center",
+  fontSize: "4vh",
 
-  font: 25px/36px Georgia, Garamond, Serif;
-  overflow: auto;
-  position: absolute;
+  zIndex: "4",
+}}
+>
+The Gnawa <br></br>
+Exploration
+</h1> */
+
+.wholepager {
+  margin-top: 56px;
+  padding: 10px;
+  border: 10px solid rgb(0, 60, 128);
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  top: 50%;
-  left: 5%;
+  justify-content: center;
 }
+
+.pager {
+  width: 90vw;
+  height: 40vw;
+
+  position: relative;
+  display: flex;
+}
+
+.bg {
+}
+
+.bgvideo {
+  border: 5px solid rgb(15, 152, 72);
+  object-fit: fill;
+}
+
+/* 
+#pager1 {
+  align-items: center;
+  justify-content: left;
+}
+
+.pager {
+  border: 4px solid pink;
+}
+
+#headorr {
+  font-size: 11vw;
+
+  position: absolute;
+}
+
+.floaty {
+  color: white;
+  border: 1px solid purple;
+  mix-blend-mode: exclusion;
+  position: absolute;
+  z-index: 1;
+} */
