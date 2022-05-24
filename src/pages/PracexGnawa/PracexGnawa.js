@@ -5,57 +5,79 @@ import { Parallax, Background } from "react-parallax";
 
 import "./style.css";
 
-import GX030755 from "../../assets/GX030755.mp4";
-import pracexgnawablackkoyocouleurcafe from "../../assets/pracexgnawablackkoyocouleurcafe.jpeg";
-import kindjes from "../../assets/kindjes.png";
+import Africadelic_PracexBlackKoyo from "../../assets/GnawaExploration/Africadelic_PracexBlackKoyo.mp4";
+import AtlasElectronic_PracexSattaralSaadi from "../../assets/GnawaExploration/AtlasElectronic_PracexSattaralSaadi.png";
+import AtlasElectronic_2016II from "../../assets/GnawaExploration/AtlasElectronic_2016II.jpeg";
+import Sahara_Prace from "../../assets/GnawaExploration/Sahara_Prace.mp4";
+import DarGnawa_Talking from "../../assets/GnawaExploration/DarGnawa_Talking.jpeg";
 
 export default function PracexGnawa() {
   return (
     <div>
-      <div className="PG1">
+      <div className="pager">
         <video
-          style={{ width: "100%", height: "100%" }}
+          style={{
+            width: "100%",
+            marginBottom: "-6px",
+            position: "relative",
+          }}
           muted
           loop
           autoPlay
-          id="GX030755"
+          id="Africadelic_PracexBlackKoyo"
         >
-          <source src={GX030755} type="video/mp4" />
-          bladiebla{" "}
+          <source src={Africadelic_PracexBlackKoyo} type="video/mp4" />
+        </video>
+
+        <h1
+          style={{
+            position: "absolute",
+            alignItems: "center",
+          }}
+        >
+          HALLO
+        </h1>
+      </div>
+
+      <div className="pager">
+        <img
+          style={{ backgroundColor: "blue", width: "100%", height: "100%" }}
+          id="AtlasElectronic_PracexSattaralSaadi"
+          src={AtlasElectronic_PracexSattaralSaadi}
+          alt="AtlasElectronic_PracexSattaralSaadi"
+        />
+      </div>
+
+      <div className="pager">
+        <img
+          style={{ width: "100%", height: "100%" }}
+          id="AtlasElectronic_2016II"
+          src={AtlasElectronic_2016II}
+          alt="AtlasElectronic_2016II"
+        />
+      </div>
+
+      <div className="pager">
+        <video
+          style={{
+            width: "100%",
+            marginBottom: "-6px",
+          }}
+          muted
+          loop
+          autoPlay
+          id="Sahara_Prace"
+        >
+          <source src={Sahara_Prace} type="video/mp4" />
         </video>
       </div>
 
-      <Parallax
-        style={{ width: "100%" }}
-        bgImage={pracexgnawablackkoyocouleurcafe}
-        bgImageAlt="pracexgnawablackkoyocouleurcafe"
-        strength={-900}
-      >
-        Blur transition from min to max
-        <div style={{ height: "1080px" }} />
-      </Parallax>
-
-      <div id="overflowtje">
-        As you can see, once there's enough text in this box, the box will grow
-        scroll bars... that's why we call it a scroll box! You could also place
-        an image into the scroll box. scroll bars... that's why we call it a
-        scroll box! You could also place an image into the scroll box. scroll
-        bars... that's why we call it a scroll box! You could also place an
-        image into the scroll box. scroll bars... that's why we call it a scroll
-        box! You could also place an image into the scroll box.
-      </div>
-
-      <div className="PG2">
-        <p>
-          nou en toen gebeurde dit en toen gebeurde dat en toen gebeurde dit en
-          toen gebeurde dat hallo allemaal dikke ballen dermee
-        </p>
-
+      <div className="pager">
         <img
           style={{ width: "100%", height: "100%" }}
-          id="pracexgnawablackkoyocouleurcafe"
-          src={pracexgnawablackkoyocouleurcafe}
-          alt="pracexgnawablackkoyocouleurcafe"
+          id="DarGnawa_Talking"
+          src={DarGnawa_Talking}
+          alt="DarGnawa_Talking"
         />
       </div>
     </div>

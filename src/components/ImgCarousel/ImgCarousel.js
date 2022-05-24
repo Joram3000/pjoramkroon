@@ -5,15 +5,14 @@ const images = [{ url: "../../assets/3.png" }, { url: "../../assets/2.jpeg" }];
 export default function ImgCarousel() {
   return (
     <div>
-      <div>
-        <SimpleImageSlider
-          width={896}
-          height={504}
-          images={images}
-          showBullets={true}
-          showNavs={true}
-        />
-      </div>
+      <SimpleImageSlider
+        width={896}
+        height={504}
+        images={images}
+        showBullets={true}
+        showNavs={true}
+      />
     </div>
   );
 }
+ 

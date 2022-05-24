@@ -20,11 +20,11 @@ import Parallaxtest from "./components/Parallaxtest/parallaxtest";
 import CssBlox2 from "./components/csstest/cssblox2";
 import CssBlox3 from "./components/csstest/cssblox3";
 
+import Paraslidelight from "./components/csstest/Paraslidelight";
+
 import { useDispatch, useSelector } from "react-redux";
 import { selectAppLoading } from "./store/appState/selectors";
 import { getUserWithStoredToken } from "./store/user/actions";
-
-import HeroBanner from "./components/HeroBanner";
 
 function App() {
   const dispatch = useDispatch();
@@ -47,8 +47,9 @@ function App() {
           <Route path="/tfs" element={<TheFirstStatementpage />} />
           <Route path="/gnawa" element={<PracexGnawa />} />
           <Route path="/parallaxtest" element={<Parallaxtest />} />
-          <Route path="/cssblox2" element={<CssBlox2 />} />{" "}
+          <Route path="/cssblox2" element={<CssBlox2 />} />
           <Route path="/cssblox3" element={<CssBlox3 />} />
+          <Route path="para" element={<Paraslidelight />} />
           <Route path="/bc" element={<BandcampCarousel />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/login" element={<Login />} />
