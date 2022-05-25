@@ -28,7 +28,7 @@ Exploration
 .wholepager {
   margin-top: 56px;
   padding: 10px;
-  border: 10px solid rgb(0, 60, 128);
+  border: 1px solid rgb(0, 60, 128);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -36,19 +36,124 @@ Exploration
 }
 
 .pager {
-  width: 90vw;
-  height: 40vw;
-
-  position: relative;
   display: flex;
+  width: 90vw;
+  height: 50.625vw;
+  overflow: scroll;
+  position: relative;
 }
 
 .bg {
+  z-index: 4;
 }
 
 .bgvideo {
-  border: 5px solid rgb(15, 152, 72);
-  object-fit: fill;
+  position: absolute;
+  width: 100%;
+
+  /* object-fit: fill; */
+}
+
+#Sahara_Prace {
+  width: 100%;
+}
+
+.header {
+  /* border: 1px solid rgb(0, 0, 0); */
+  width: 90vw;
+  height: 76vw;
+  position: relative;
+  overflow: hidden;
+
+  z-index: 2;
+}
+
+.headertext {
+  /* border: 1px solid rgb(133, 99, 99); */
+  position: absolute;
+
+  width: 100%;
+  top: 0%;
+
+  transform: translate(0, 30%);
+
+  line-height: 8vw;
+  font-size: 12vw;
+  color: #ffdb6e;
+
+  text-shadow: 6px 3px black;
+
+  mix-blend-mode: color-dodge;
+
+  z-index: 10;
+}
+
+.ding1 {
+  width: 40vw;
+  height: 20vh;
+  z-index: 3;
+  overflow: scroll;
+
+  position: absolute;
+
+  text-align: right;
+  bottom: 0%;
+  right: 16px;
+}
+
+.soIwent {
+  border: 1px solid brown;
+  position: relative;
+  bottom: 0%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  line-height: 8vw;
+  font-size: 4vw;
+  color: #e0d7ba;
+
+  z-index: 6;
+}
+
+#Aetextbox {
+  background-color: rgba(255, 255, 255, 0.651);
+  position: relative;
+  z-index: 6;
+  width: 100%;
+
+  transform: translate(0%, -50%);
+  overflow: scroll;
+}
+
+#intoSahara {
+  position: absolute;
+  z-index: 6;
+  width: 100%;
+
+  line-height: 13vw;
+  font-size: 12vw;
+  color: #605022;
+  text-align: center;
+
+  text-shadow: 6px 3px rgb(87, 95, 185);
+
+  mix-blend-mode: color-dodge;
+}
+
+#AtlasElectronic_2018krkb2 {
+  z-index: 6;
+  position: absolute;
+  left: 0;
+  transform: translate(-50px, 0);
+  opacity: 0.3;
+}
+
+#AtlasElectronic_2016II,
+#AtlasElectronic_2018krkb,
+#AtlasElectronic_2018gimbri,
+#AtlasElectronic_2018zaal {
+  position: relative;
+  border-radius: 8px;
 }
 
 /* 
@@ -58,7 +163,7 @@ Exploration
 }
 
 .pager {
-  border: 4px solid pink;
+ 
 }
 
 #headorr {
