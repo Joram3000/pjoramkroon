@@ -1,30 +1,3 @@
-/* style={{
-  color: "white",
-  position: "absolute",
-
-  minWidth: "100%",
-  textAlign: "center",
-  fontSize: "10vh",
-  mixBlendMode: "exclusion",
-  zIndex: "4",
-}} */
-
-/* 
-style={{
-  color: "white",
-  position: "fixed",
-  top: "50vh",
-  minWidth: "100%",
-  textAlign: "center",
-  fontSize: "4vh",
-
-  zIndex: "4",
-}}
->
-The Gnawa <br></br>
-Exploration
-</h1> */
-
 .wholepager {
   margin-top: 56px;
   padding: 10px;
@@ -44,13 +17,13 @@ Exploration
 }
 
 .bg {
-  z-index: 4;
+  z-index: 0;
 }
 
 .bgvideo {
   position: absolute;
   width: 100%;
-
+  z-index: -1;
   /* object-fit: fill; */
 }
 
@@ -82,7 +55,6 @@ Exploration
   color: #ffdb6e;
 
   text-shadow: 6px 3px black;
-
   mix-blend-mode: color-dodge;
 
   z-index: 10;
@@ -93,7 +65,6 @@ Exploration
   height: 20vh;
   z-index: 3;
   overflow: scroll;
-
   position: absolute;
 
   text-align: right;
@@ -104,24 +75,38 @@ Exploration
 .soIwent {
   border: 1px solid brown;
   position: relative;
-  bottom: 0%;
+
   text-align: center;
   align-items: center;
   justify-content: center;
   line-height: 8vw;
   font-size: 4vw;
   color: #e0d7ba;
-
   z-index: 6;
 }
 
 #Aetextbox {
   background-color: rgba(255, 255, 255, 0.651);
-  position: relative;
+  position: absolute;
   z-index: 6;
-  width: 100%;
+  width: 30%;
+  /* transform: translate(0%, -50%); */
+}
 
-  transform: translate(0%, -50%);
+#dargnawatextbox {
+  /* background-color: rgba(255, 255, 255, 0.651); */
+
+  position: absolute;
+  z-index: 6;
+  width: 40%;
+  height: 100%;
+
+  left: 100%;
+  transform: translate(-50%, 0%);
+
+  color: white;
+  text-align: left;
+  font-size: 4vw;
   overflow: scroll;
 }
 
@@ -130,14 +115,21 @@ Exploration
   z-index: 6;
   width: 100%;
 
-  line-height: 13vw;
+  line-height: 14vw;
   font-size: 12vw;
-  color: #605022;
+  color: #dee2e6;
   text-align: center;
 
-  text-shadow: 6px 3px rgb(87, 95, 185);
-
   mix-blend-mode: color-dodge;
+}
+
+#embedAmazigh {
+  position: absolute;
+  z-index: 6;
+  left: 63%;
+  bottom: 0%;
+  margin: 0;
+  overflow: hidden;
 }
 
 #AtlasElectronic_2018krkb2 {
@@ -153,29 +145,5 @@ Exploration
 #AtlasElectronic_2018gimbri,
 #AtlasElectronic_2018zaal {
   position: relative;
-  border-radius: 8px;
+  border-radius: 10px;
 }
-
-/* 
-#pager1 {
-  align-items: center;
-  justify-content: left;
-}
-
-.pager {
- 
-}
-
-#headorr {
-  font-size: 11vw;
-
-  position: absolute;
-}
-
-.floaty {
-  color: white;
-  border: 1px solid purple;
-  mix-blend-mode: exclusion;
-  position: absolute;
-  z-index: 1;
-} */
