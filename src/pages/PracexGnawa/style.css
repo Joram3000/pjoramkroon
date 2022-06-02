@@ -60,7 +60,7 @@
   z-index: 10;
 }
 
-.ding1 {
+/* .ding1 {
   width: 40vw;
   height: 20vh;
   z-index: 3;
@@ -70,7 +70,7 @@
   text-align: right;
   bottom: 0%;
   right: 16px;
-}
+} */
 
 .soIwent {
   border: 1px solid brown;
@@ -126,24 +126,69 @@
 #embedAmazigh {
   position: absolute;
   z-index: 6;
-  left: 63%;
-  bottom: 0%;
+  left: 68%;
+  top: 0%;
   margin: 0;
   overflow: hidden;
 }
 
-#AtlasElectronic_2018krkb2 {
-  z-index: 6;
-  position: absolute;
-  left: 0;
-  transform: translate(-50px, 0);
-  opacity: 0.3;
+.heador {
+  /* border: 1px solid black; */
+  width: 100%;
+  height: fit-content;
+  text-align: center;
+  color: white;
+
+  font-size: 15vw;
+  transform: translate(0%, -23%);
 }
 
+.amazigh p {
+  /* border: 1px solid salmon; */
+  color: white;
+
+  position: absolute;
+  width: 33%;
+  bottom: 0%;
+}
+
+#amazighEP {
+  background-image: url("../../assets//GnawaExploration/Amazigh_EP.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+#amazighEPembed {
+  border: 1px solid grey;
+  bottom: 0%;
+  width: 400px;
+  height: 300px;
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+}
 #AtlasElectronic_2016II,
 #AtlasElectronic_2018krkb,
 #AtlasElectronic_2018gimbri,
 #AtlasElectronic_2018zaal {
   position: relative;
   border-radius: 10px;
+}
+
+.shows {
+  border: 3px solid black;
+}
+
+.scrollerbox {
+  width: 50%;
+
+  border: 4px solid blueviolet;
+  position: absolute;
+  right: 0;
+}
+
+.scollerboxitem {
+  border: 5px solid thistle;
+  height: 500px;
+  width: 100%;
 }
