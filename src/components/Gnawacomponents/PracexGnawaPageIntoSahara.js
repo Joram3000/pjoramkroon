@@ -4,7 +4,17 @@ import Sahara_Prace from "../../assets/GnawaExploration/Sahara_Prace.mp4";
 
 export default function PracexGnawaPageIntoSahara() {
   return (
-    <div className="pager">
+    <div className="pager intoSaharapage">
+      <div id="intoSaharatextbox">
+        <p>
+          hier staat text het mag wel wat meer zijn maar hoeft niet meer zijn
+          maar hoeft niet meer zijn maar hoeft niet meer zijn maar hoeft niet
+          persee
+          <br></br>
+          hier staat text het mag wel wat meer zijn maar hoeft niet persee
+        </p>
+      </div>
+
       <video className="bgvideosahara" muted loop autoPlay id="Sahara_Prace">
         <source src={Sahara_Prace} type="video/mp4" />
       </video>

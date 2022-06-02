@@ -1,6 +1,7 @@
 import DarGnawa_AmazighBlues from "../../assets/GnawaExploration/DarGnawa_AmazighBlues.JPG";
 import DarGnawa_AmazighBluesHark from "../../assets/GnawaExploration/DarGnawa_AmazighBluesHark.JPG";
 
+
 export default function PracexGnawaPageAmazighBlues() {
   return (
     <div className="pager AmazighBlues">

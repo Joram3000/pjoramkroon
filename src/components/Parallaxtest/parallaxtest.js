@@ -1,13 +1,8 @@
 import React from "react";
-import { render } from "react-dom";
-import { useParallax } from "react-scroll-parallax";
-import { Parallax, Background } from "react-parallax";
+
+import { Parallax } from "react-parallax";
 import image2 from "../../assets/pracexgnawablackkoyocouleurcafe.jpeg";
 
-const styles = {
-  fontFamily: "sans-serif",
-  textAlign: "center",
-};
 const insideStyles = {
   border: "4px dotted orange",
   background: "white",

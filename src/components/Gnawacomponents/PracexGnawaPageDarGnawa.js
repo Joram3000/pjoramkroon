@@ -14,10 +14,6 @@ export default function PracexGnawaPageDarGnawa() {
         alt=""
       />
 
-      <div style={{ position: "absolute", zIndex: "12" }}>
-        <p>hier staat text</p>
-      </div>
-
       <div id="dargnawatextbox">
         <br></br>
         <iframe

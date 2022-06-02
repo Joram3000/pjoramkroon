@@ -24,11 +24,6 @@
   position: absolute;
   width: 100%;
   z-index: -1;
-  /* object-fit: fill; */
-}
-
-#Sahara_Prace {
-  width: 100%;
 }
 
 .header {
@@ -60,29 +55,35 @@
   z-index: 10;
 }
 
-/* .ding1 {
-  width: 40vw;
-  height: 20vh;
-  z-index: 3;
-  overflow: scroll;
+#Sahara_Prace {
+  width: 100%;
+}
+
+#intoSahara {
+  position: absolute;
+  z-index: 6;
+  width: 100%;
+
+  line-height: 14vw;
+  font-size: 12vw;
+  color: #dee2e6;
+  text-align: center;
+
+  mix-blend-mode: color-dodge;
+}
+
+/* height: 100%; overflow: hidden */
+
+#intoSaharatextbox {
+  color: white;
+  backdrop-filter: blur(2px);
   position: absolute;
 
-  text-align: right;
+  width: 100%;
   bottom: 0%;
-  right: 16px;
-} */
-
-.soIwent {
-  border: 1px solid brown;
-  position: relative;
-
-  text-align: center;
-  align-items: center;
+  /* transform: translate(0, 50%); */
   justify-content: center;
-  line-height: 8vw;
-  font-size: 4vw;
-  color: #e0d7ba;
-  z-index: 6;
+  text-align: center;
 }
 
 #Aetextbox {
@@ -108,19 +109,6 @@
   text-align: left;
   font-size: 4vw;
   overflow: scroll;
-}
-
-#intoSahara {
-  position: absolute;
-  z-index: 6;
-  width: 100%;
-
-  line-height: 14vw;
-  font-size: 12vw;
-  color: #dee2e6;
-  text-align: center;
-
-  mix-blend-mode: color-dodge;
 }
 
 #embedAmazigh {

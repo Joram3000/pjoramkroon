@@ -7,7 +7,7 @@
 }
 
 .deel1 text {
-  color: rgb(231, 145, 237);
+  color: rgb(190, 120, 40);
   position: relative;
   width: 50vw;
   left: 50px;
@@ -51,11 +51,6 @@
   margin: 0 auto;
   top: 20%;
   transform: translate(0, -50%);
-}
-
-p {
-  color: palevioletred;
-  font-size: 130%;
 }
 
 .deel3 {

@@ -10,17 +10,8 @@ import SignUp from "./pages/SignUp";
 import Login from "./pages/Login";
 
 import Homepage from "./pages/Home/Home";
-
 import PracexGnawa2 from "./pages/PracexGnawa/PracexGnawa2";
-
-import BandcampCarousel from "./components/BandcampCarousel/BandcampCarousel";
-
-import Parallaxtest from "./components/Parallaxtest/parallaxtest";
-
-import CssBlox2 from "./components/csstest/cssblox2";
-import CssBlox3 from "./components/csstest/cssblox3";
-
-import Paraslidelight from "./components/csstest/Paraslidelight";
+import TheFirstStatementpage from "./pages/TheFirstStatement/TheFirstStatement";
 
 import { useDispatch, useSelector } from "react-redux";
 import { selectAppLoading } from "./store/appState/selectors";
@@ -44,13 +35,9 @@ function App() {
       <ParallaxProvider>
         <Routes>
           <Route exact path="/" element={<Homepage />} />
-          <Route path="/tfs" element={<showsinNL />} />
+          <Route path="/tfs" element={<TheFirstStatementpage />} />
           <Route path="/gnawa" element={<PracexGnawa2 />} />
-          <Route path="/parallaxtest" element={<Parallaxtest />} />
-          <Route path="/cssblox2" element={<CssBlox2 />} />
-          <Route path="/cssblox3" element={<CssBlox3 />} />
-          <Route path="para" element={<Paraslidelight />} />
-          <Route path="/bc" element={<BandcampCarousel />} />
+
           <Route path="/signup" element={<SignUp />} />
           <Route path="/login" element={<Login />} />
         </Routes>

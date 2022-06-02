@@ -8,25 +8,20 @@ import PracexGnawaPageDarGnawa from "../../components/Gnawacomponents/PracexGnaw
 import PracexGnawaPageIntoSahara from "../../components/Gnawacomponents/PracexGnawaPageIntoSahara";
 import PracexGnawaPageAmazighBlues from "../../components/Gnawacomponents/PracexGnawaPageAmazighBlues";
 import PracexGnawaPageAmazighEP from "../../components/Gnawacomponents/PracexGnawaPageAmazighEP";
+import PracexGnawaPageSliderCarr from "../../components/Gnawacomponents/PracexGnawaPageSliderCarr";
 
 export default function PracexGnawa() {
   return (
     <div className="wholepager">
+      <PracexGnawaPageSliderCarr />
+
       <PracexGnawaPageHeader />
       <PracexGnawaPageAtlasElectronicSlide />
       <PracexGnawaPageIntoSahara />
+
       <PracexGnawaPageDarGnawa />
       <PracexGnawaPageAmazighBlues />
       <PracexGnawaPageAmazighEP />
-
-      <div className="pager shows">
-        <div className="scrollerbox">
-          <div className="scollerboxitem">TWEETAKT 6 APR</div>
-          <div className="scollerboxitem">PLLEK MAALLEM</div>
-          <div className="scollerboxitem">BLACK KOYO GNAWA</div>
-          <div className="scollerboxitem">Sterkte verhaalte</div>
-        </div>
-      </div>
     </div>
   );
 }
