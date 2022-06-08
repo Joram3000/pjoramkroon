@@ -1,7 +1,4 @@
-import AtlasElectronic_2016II from "../../assets/GnawaExploration/AtlasElectronic_2016II.jpeg";
-import AtlasElectronic_2018krkb from "../../assets/GnawaExploration/AtlasElectronic_2018krkb.jpeg";
-import AtlasElectronic_2018gimbri from "../../assets/GnawaExploration/14290035_532664846926099_8116276477418946410_o.jpeg";
-import AtlasElectronic_2018zaal from "../../assets/GnawaExploration/14372389_532664233592827_5396893453420820056_o.jpeg";
+import { gnawaMedia } from "./media";
 
 export default function PracexGnawaPageAtlasElectronicSlide() {
   return (
@@ -18,7 +15,7 @@ export default function PracexGnawaPageAtlasElectronicSlide() {
         }}
         className="bg"
         id="AtlasElectronic_2016II"
-        src={AtlasElectronic_2016II}
+        src={gnawaMedia.AtlasElectronic_2016II}
         alt=""
       />
 
@@ -28,7 +25,7 @@ export default function PracexGnawaPageAtlasElectronicSlide() {
         }}
         className="bg"
         id="AtlasElectronic_2018krkb"
-        src={AtlasElectronic_2018krkb}
+        src={gnawaMedia.AtlasElectronic_2018krkb}
         alt=""
       />
 
@@ -38,7 +35,7 @@ export default function PracexGnawaPageAtlasElectronicSlide() {
         }}
         className="bg"
         id="AtlasElectronic_2018gimbri"
-        src={AtlasElectronic_2018gimbri}
+        src={gnawaMedia.AtlasElectronic_2018gimbri}
         alt=""
       />
 
@@ -48,7 +45,7 @@ export default function PracexGnawaPageAtlasElectronicSlide() {
         }}
         className="bg"
         id="AtlasElectronic_2018zaal"
-        src={AtlasElectronic_2018zaal}
+        src={gnawaMedia.AtlasElectronic_2018zaal}
         alt=""
       />
     </div>

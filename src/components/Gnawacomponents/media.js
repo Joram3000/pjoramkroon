@@ -12,7 +12,7 @@ import DarGnawa_Abdoul from "../../assets/GnawaExploration/DarGnawa_Abdoul.jpg";
 import DarGnawa_AmazighBlues from "../../assets/GnawaExploration/DarGnawa_AmazighBlues.JPG";
 import DarGnawa_AmazighBluesHark from "../../assets/GnawaExploration/DarGnawa_AmazighBluesHark.JPG";
 
-export const gnawaMedia = [
+export const gnawaMedia = {
   Africadelic_PracexBlackKoyo,
   AtlasElectronic_PracexSattaralSaadiResized2,
   AtlasElectronic_2016II,
@@ -24,4 +24,4 @@ export const gnawaMedia = [
   DarGnawa_Abdoul,
   DarGnawa_AmazighBlues,
   DarGnawa_AmazighBluesHark,
-];
+};

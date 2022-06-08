@@ -1,5 +1,4 @@
-import DarGnawa_Talking from "../../assets/GnawaExploration/DarGnawa_Talking.jpeg";
-import DarGnawa_Abdoul from "../../assets/GnawaExploration/DarGnawa_Abdoul.jpg";
+import { gnawaMedia } from "./media";
 
 export default function PracexGnawaPageDarGnawa() {
   return (
@@ -10,7 +9,7 @@ export default function PracexGnawaPageDarGnawa() {
         }}
         className="bg"
         id="DarGnawa_Talking"
-        src={DarGnawa_Talking}
+        src={gnawaMedia.DarGnawa_Talking}
         alt=""
       />
 
@@ -45,7 +44,7 @@ export default function PracexGnawaPageDarGnawa() {
         }}
         className="bg"
         id="DarGnawa_Abdoul"
-        src={DarGnawa_Abdoul}
+        src={gnawaMedia.DarGnawa_Abdoul}
         alt=""
       />
     </div>

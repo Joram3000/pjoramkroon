@@ -1,6 +1,4 @@
-import DarGnawa_AmazighBlues from "../../assets/GnawaExploration/DarGnawa_AmazighBlues.JPG";
-import DarGnawa_AmazighBluesHark from "../../assets/GnawaExploration/DarGnawa_AmazighBluesHark.JPG";
-
+import { gnawaMedia } from "./media";
 
 export default function PracexGnawaPageAmazighBlues() {
   return (
@@ -12,7 +10,7 @@ export default function PracexGnawaPageAmazighBlues() {
         }}
         className="bg"
         id="DarGnawa_AmazighBlues"
-        src={DarGnawa_AmazighBlues}
+        src={gnawaMedia.DarGnawa_AmazighBlues}
         alt=""
       />
       <img
@@ -22,7 +20,7 @@ export default function PracexGnawaPageAmazighBlues() {
         }}
         className="bg"
         id="DarGnawa_AmazighBluesHark"
-        src={DarGnawa_AmazighBluesHark}
+        src={gnawaMedia.DarGnawa_AmazighBluesHark}
         alt=""
       />
       <div id="embedAmazigh">

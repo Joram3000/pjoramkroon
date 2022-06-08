@@ -2,15 +2,13 @@ import React from "react";
 
 import { Parallax } from "react-scroll-parallax";
 
-import Africadelic_PracexBlackKoyo from "../../assets/GnawaExploration/Africadelic_PracexBlackKoyo.mp4";
-import AtlasElectronic_PracexSattaralSaadiResized2 from "../../assets/GnawaExploration/AtlasElectronic_PracexSattaralSaadiResized3.png";
+import { gnawaMedia } from "./media";
 
 export default function PracexGnawaPageHeader() {
-  
   return (
     <div className="header">
       <video className="bgvideo" muted loop autoPlay>
-        <source src={Africadelic_PracexBlackKoyo} type="video/mp4" />
+        <source src={gnawaMedia.Africadelic_PracexBlackKoyo} type="video/mp4" />
       </video>
       <img
         style={{
@@ -20,7 +18,7 @@ export default function PracexGnawaPageHeader() {
         }}
         className="bg"
         id="AtlasElectronic_PracexSattaralSaadiResized2"
-        src={AtlasElectronic_PracexSattaralSaadiResized2}
+        src={gnawaMedia.AtlasElectronic_PracexSattaralSaadiResized2}
         alt=""
       />
 
