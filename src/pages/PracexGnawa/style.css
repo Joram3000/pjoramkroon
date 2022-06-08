@@ -14,6 +14,14 @@
   height: 50.625vw;
   overflow: scroll;
   position: relative;
+  scroll-snap-type: y mandatory;
+}
+
+.pagert {
+  width: 90vw;
+  height: 50.625vw;
+  overflow: scroll;
+  position: relative;
 }
 
 .bg {
@@ -148,10 +156,71 @@
   bottom: 0%;
   right: 0%;
 }
+
 #AtlasElectronic_2016II,
 #AtlasElectronic_2018krkb,
 #AtlasElectronic_2018gimbri,
 #AtlasElectronic_2018zaal {
   position: relative;
   border-radius: 10px;
+}
+
+.showsScrollerbox {
+  border: 1px solid rgb(203, 59, 59);
+  overflow: hidden;
+}
+
+.showsScrollerbox p {
+  color: rgb(0, 0, 0);
+  border: 1px solid black;
+  width: 100%;
+
+  text-align: center;
+  font-size: 6vw;
+}
+
+.scrollerbox {
+  border: 2px solid green;
+  scroll-snap-type: x mandatory;
+  display: flex;
+  -webkit-overflow-scrolling: touch;
+  overflow-x: auto;
+
+  padding-left: calc(50.625vw / 6);
+  padding-right: calc(50.625vw / 6);
+}
+
+.showTextBox {
+  width: 50%;
+
+  border: 3px solid brown;
+  position: absolute;
+}
+
+.showTextBox p {
+  border: 2px solid rgb(56, 75, 144);
+
+  text-align: left;
+  font-size: 14px;
+}
+
+.scollerboxitem {
+  scroll-snap-align: center;
+
+  position: relative;
+  min-width: 80vw;
+  height: 40vw;
+
+  /*   
+  border: 5px solid thistle;
+  height: calc(50.625vw / 1.5);
+  width: 100%; */
+}
+
+.mediabox {
+  border: 4px solid rgb(56, 75, 144);
+  position: absolute;
+  width: 50%;
+
+  right: 0;
 }

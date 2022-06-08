@@ -22,6 +22,9 @@ export default function PracexGnawa() {
       <PracexGnawaPageAmazighEP />
 
       <PracexGnawaPageSliderCarr />
+
+      <PracexGnawaPageDarGnawa />
+      <PracexGnawaPageDarGnawa />
     </div>
   );
 }
