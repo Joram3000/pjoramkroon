@@ -13,8 +13,6 @@ import PracexGnawaPageSliderCarr from "../../components/Gnawacomponents/PracexGn
 export default function PracexGnawa() {
   return (
     <div className="wholepager">
-      <PracexGnawaPageSliderCarr />
-
       <PracexGnawaPageHeader />
       <PracexGnawaPageAtlasElectronicSlide />
       <PracexGnawaPageIntoSahara />
@@ -22,6 +20,8 @@ export default function PracexGnawa() {
       <PracexGnawaPageDarGnawa />
       <PracexGnawaPageAmazighBlues />
       <PracexGnawaPageAmazighEP />
+
+      <PracexGnawaPageSliderCarr />
     </div>
   );
 }

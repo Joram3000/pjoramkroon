@@ -1,14 +1,14 @@
-.slider * {
+.shows * {
   box-sizing: border-box;
 }
 
-.slider {
-  width: 450px;
+.scrollerbox {
+  width: 300px;
   text-align: center;
   overflow: hidden;
 }
 
-.slides {
+.scrolleritem {
   display: flex;
 
   overflow-x: auto;
@@ -22,17 +22,18 @@
   scroll-snap-type: mandatory;
   */
 }
-.slides::-webkit-scrollbar {
-  height: 5px;
+.scrollerbox::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
 }
-.slides::-webkit-scrollbar-thumb {
+.scrollerbox::-webkit-scrollbar-thumb {
   background: black;
   border-radius: 10px;
 }
-.slides::-webkit-scrollbar-track {
+.scrollerbox::-webkit-scrollbar-track {
   background: transparent;
 }
-.slides > div {
+.scrollerbox > div {
   scroll-snap-align: start;
   flex-shrink: 0;
   width: 300px;
@@ -50,7 +51,7 @@
   align-items: center;
   font-size: 100px;
 }
-.slides > div:target {
+.scrollerbox > div:target {
   /*   transform: scale(0.8); */
 }
 .author-info {
@@ -67,7 +68,8 @@
 .author-info a {
   color: white;
 }
-img {
+
+.shows img {
   object-fit: cover;
   position: absolute;
   top: 0;
@@ -76,7 +78,7 @@ img {
   height: 100%;
 }
 
-.slider > a {
+.scrollerbox > a {
   display: inline-flex;
   width: 1.5rem;
   height: 1.5rem;
@@ -88,10 +90,10 @@ img {
   margin: 0 0 0.5rem 0;
   position: relative;
 }
-.slider > a:active {
+.scrollerbox > a:active {
   top: 1px;
 }
-.slider > a:focus {
+.scrollerbox > a:focus {
   background: #000;
 }
 
@@ -102,12 +104,36 @@ img {
   }
 }
 
-.sliderthing {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: blue;
-  font-family: "Ropa Sans", sans-serif;
+.shows html,
+body {
   height: 100%;
   overflow: hidden;
 }
+
+.shows body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom, #74abe2, #5563de);
+  font-family: "Ropa Sans", sans-serif;
+}
+
+/* .shows {
+  border: 3px solid black;
+}
+
+.scrollerbox {
+  padding-top: calc(50.625vw / 3);
+  padding-bottom: calc(50.625vw / 3);
+  width: 50%;
+
+  border: 4px solid blueviolet;
+  position: absolute;
+  right: 0;
+}
+
+.scollerboxitem {
+  border: 5px solid thistle;
+  height: calc(50.625vw / 1.5);
+  width: 100%;
+} */

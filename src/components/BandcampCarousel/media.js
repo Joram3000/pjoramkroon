@@ -1,4 +1,4 @@
-const singles = [
+const singles = [{
   {
     id: 23,
     title: "bayeke",
@@ -55,6 +55,6 @@ const singles = [
     hRef: "https://inirecordings.bandcamp.com/album/vuelo-nocturno-remixes",
     aText: "Vuelo Nocturno Remixes",
   },
-];
+}];
 
 export default singles;

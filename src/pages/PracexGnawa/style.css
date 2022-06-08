@@ -27,7 +27,6 @@
 }
 
 .header {
-  /* border: 1px solid rgb(0, 0, 0); */
   width: 90vw;
   height: 76vw;
   position: relative;
@@ -37,12 +36,10 @@
 }
 
 .headertext {
-  /* border: 1px solid rgb(133, 99, 99); */
   position: absolute;
 
   width: 100%;
   top: 0%;
-
   transform: translate(0, 30%);
 
   line-height: 8vw;
@@ -72,8 +69,6 @@
   mix-blend-mode: color-dodge;
 }
 
-/* height: 100%; overflow: hidden */
-
 #intoSaharatextbox {
   color: white;
   backdrop-filter: blur(2px);
@@ -95,8 +90,6 @@
 }
 
 #dargnawatextbox {
-  /* background-color: rgba(255, 255, 255, 0.651); */
-
   position: absolute;
   z-index: 6;
   width: 40%;
@@ -161,22 +154,4 @@
 #AtlasElectronic_2018zaal {
   position: relative;
   border-radius: 10px;
-}
-
-.shows {
-  border: 3px solid black;
-}
-
-.scrollerbox {
-  width: 50%;
-
-  border: 4px solid blueviolet;
-  position: absolute;
-  right: 0;
-}
-
-.scollerboxitem {
-  border: 5px solid thistle;
-  height: 500px;
-  width: 100%;
 }

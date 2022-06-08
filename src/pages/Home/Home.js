@@ -2,18 +2,20 @@ import "./style.css";
 
 export default function Homepage() {
   return (
-    <div className="wholepager">
-      <div className="pager">
-        <svg id="mySVG">
-          <path
-            fill="none"
-            stroke="red"
-            stroke-width="3"
-            id="triangle"
-            d="M150 0 L75 200 L225 200 Z"
-          />
-          Sorry, your browser does not support inline SVG.
-        </svg>
+    <div className="sliderthing">
+    <div class="slider">
+      <a href="#slide-2">2</a>
+      <a href="#slide-3">3</a>
+      <a href="#slide-4">4</a>
+      <a href="#slide-5">5</a>
+
+      <div class="slides">
+        <div id="slide-1">1</div>
+        <div id="slide-2">2</div>
+        <div id="slide-3">3</div>
+        <div id="slide-4">4</div>
+        <div id="slide-5">5</div>
+      </div>
       </div>
     </div>
   );
